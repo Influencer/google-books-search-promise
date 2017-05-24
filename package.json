@@ -1,21 +1,21 @@
 {
-  "name": "google-books-search-promise",
-  "version": "1.1.1",
-  "description": "Promisified Wrapper for Google Books Search API",
-  "main": "./lib/index.js",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/tdtd/google-books-search-promise.git"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Will Woodham",
-  "license": "ISC",
   "dependencies": {
     "bluebird": "^3.4.6",
     "lodash": "^4.17.2",
     "request": "^2.79.0",
     "query-string":"^4.3.4"
-  }
+  },
+  "description": "Promisified Wrapper for Google Books Search API",
+  "devDependencies": {},
+  "directories": {},
+  "main": "./lib/index.js",
+  "maintainers": [
+    {
+      "name": "Influencer88",
+      "email": "jcalton88@gmail.com"
+    }
+  ],
+  "name": "google-books-search-promisev2",
+  "optionalDependencies": {},
+  "version": "1.1.0"
 }
