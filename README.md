@@ -34,6 +34,7 @@ let gbs = require('google-books-search-promise')('API Key');
   options {
     offset : '(Number) Offset number for pagination'
     limit: '(Number) The maximum number of entries to return. must be between 1 and 40'
+    langRestrict: Language code you wish to restrict your search to(en, fr). This option is NOT required.	
   }
 ```
 
